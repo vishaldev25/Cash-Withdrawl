@@ -1,0 +1,98 @@
+.bg-container {
+  display: flex;
+
+  justify-content: center;
+}
+.container {
+  background-color: #150b3e;
+  width: 70%;
+  max-width: 1140px;
+  margin-top: 25%;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 14px;
+}
+.person-details-container {
+  display: flex;
+  align-items: center;
+}
+.circle-design {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  padding-top: 12px;
+  padding-left: 22px;
+  padding-right: 10px;
+  color: #7c3aed;
+  margin-right: 15px;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 28px;
+  }
+}
+
+.amount-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-heading {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 16px;
+  font-weight: bold;
+}
+.rupees {
+  font-family: 'Roboto';
+  color: #c4c4c4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+span {
+  color: #585076;
+  font-size: 14px;
+}
+
+.heading {
+  color: #d4d2db;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.choosing {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #585076;
+  font-weight: bold;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .balance-heading {
+    font-size: 36px;
+  }
+  .rupees {
+    font-size: 40px;
+  }
+  span {
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .choosing {
+    font-size: 26px;
+  }
+}
